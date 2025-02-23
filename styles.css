@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.flag {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.stripe {
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red {
+    background-color: #ce1126;
+}
+.blue {
+    background-color: #002868;
+}
+.circle {
+    width: 20vh;
+    height: 20vh;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+}
+.flag-text {
+    color: white;
+    font-size: 4vh;
+    font-weight: bold;
+}
